@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+   /* border:1px solid grey;*/
 }
 /*general styles*/
 html{
@@ -37,6 +37,8 @@ body{
     line-height: 1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    margin:0;
+    padding:0;
 }
 section{
     padding:4% 0;
@@ -100,6 +102,7 @@ nav a{
     width:80%;
     margin:0 auto;
 }
+/*middle section styling*/
 .second{
     padding:3%;
     margin-left:3%;
@@ -114,10 +117,14 @@ nav a{
     text-align:center;
    
 }
+.middle{
+    margin-bottom:0rem;
+}
 .mid1 img{
     width:5%;
     margin-left:50%;
     margin-right:50%;
+   
 
 }
 .mid1 p{
@@ -125,37 +132,38 @@ nav a{
     margin-left:40%;
     margin-right:33%;
     margin-bottom:5%;
+   
 }
 
 .mid2 img{
     width:5%;
     margin-left:50%;
     margin-right:50%;
-
+   
 }
 .mid2 p{
     text-align:center;
     margin-left:40%;
     margin-right:33%;
     margin-bottom:5%;
-}
-
-.footimg img{
-    display:inline-block;
-    position:relative;
-    width:100vw;
-    height:57vh;
-    padding:0%;
-    margin-bottom:0%;
-    
+   
 }
 .assert{
     font-weight:bolder;
 }
+/*footer section styling*/
 
-
-.end{
+.bottom{
+    padding:0rem;
+    margin:0%;
     background-color:#F9E7DC;
-    margin:0;
-
 }
+.footimg img{
+    display:inline-block;
+    width:100vw;
+    height:57vh;
+    margin:0%;
+    padding:0rem;
+}
+
+
